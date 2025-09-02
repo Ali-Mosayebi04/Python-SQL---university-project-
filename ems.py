@@ -128,7 +128,7 @@ window.geometry('930x580+100+100')
 window.configure(fg_color = '#6C90FE')
 window.resizable(0,0)
 window.title('Employee management system')
-logo = CTkImage(Image.open('employee.jpg'), size=(930,165))
+logo = CTkImage(Image.open('assets/employee.jpg'), size=(930,165))
 logoLabel = CTkLabel(window,image=logo,text="")
 logoLabel.grid(row = 0, column = 0, columnspan = 2)
 

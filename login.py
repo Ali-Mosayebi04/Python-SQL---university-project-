@@ -31,7 +31,7 @@ root.geometry('930x478')
 root.resizable(0,0)
 root.title('login page')
 
-bg_image = CTkImage(Image.open('login.jpg'), size=(478,478)) 
+bg_image = CTkImage(Image.open('assets/login.jpg'), size=(478,478)) 
 label = CTkLabel(root, image=bg_image, text="")
 label.place(x=465, y=0)
 
